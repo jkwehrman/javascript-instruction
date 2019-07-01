@@ -1,0 +1,19 @@
+const square = functions(x) {
+    return (x*x);
+}
+const.makeNoise = function() {
+    console.log("pling!")
+}
+const power = function() {
+    let result = 1;
+    for (let coung=0; count , exponent; count++) {
+        result *=base;
+    }
+    return result;
+}
+
+console.log(square(7));
+makeNoise();
+console.log(power(2,10));
+
+// p.42

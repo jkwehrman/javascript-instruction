@@ -1,0 +1,10 @@
+let arrX = [1,2,3,4,5,6,7,8,9,10];
+let arrZ = [];
+
+console.log(“RRRRRAAAAAANNNNNNDDDDOOOOOOMMMM”);
+for (let n = Math.floor(arrX.length * Math.random()); arrX.length>0; n = Math.floor(arrX.length * Math.random())) {
+   arrZ.push(arrX[n]);
+   arrX.splice(n,1);
+   console.log(“arrZ = “+arrZ);
+   console.log(“arrX = “+arrX);
+}
